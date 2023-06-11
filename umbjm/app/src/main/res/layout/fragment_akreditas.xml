@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AkreditasFragment"
+    android:background="@color/maroon">
+    
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/FKIK"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:scaleType="center"
+                            android:src="@drawable/umb1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/FKIK"
+                            android:layout_centerInParent="true"
+                            android:text="FKIK"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="35sp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:id="@+id/FKIK1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="16dp"
+                            android:text="Fakultas Ilmu Kesehatan"
+                            android:layout_below="@+id/FKIK"/>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Selengkapnya"
+                            android:background="#808080"
+                            android:layout_marginLeft="10dp"
+                            android:layout_below="@+id/FKIK1"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@+id/card1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/Farmasi"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:scaleType="center"
+                        android:src="@drawable/umb1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/Farmasi"
+                        android:layout_centerInParent="true"
+                        android:text="Farmasi"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="35sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/Farmasi1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:text="Fakultas Farmasi"
+                        android:layout_below="@+id/Farmasi"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Selengkapnya"
+                        android:background="#808080"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@+id/Farmasi1"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@+id/card2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/psikologi"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:scaleType="center"
+                        android:src="@drawable/umb1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/psikologi"
+                        android:layout_centerInParent="true"
+                        android:text="Psikologi"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="35sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/psikologi1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:text="Fakultas Psikologi"
+                        android:layout_below="@+id/psikologi"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Selengkapnya"
+                        android:background="#808080"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@+id/psikologi1"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card4"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@+id/card3">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/FKIP"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:scaleType="center"
+                        android:src="@drawable/umb1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/FKIP"
+                        android:layout_centerInParent="true"
+                        android:text="FKIP"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="35sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/FKIP1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:text="Fakultas Keguruan dan ilmu pendidikan"
+                        android:layout_below="@+id/FKIP"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Selengkapnya"
+                        android:background="#808080"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@+id/FKIP1"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card5"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@+id/card4">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/TEKNIK"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:scaleType="center"
+                        android:src="@drawable/umb1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/TEKNIK"
+                        android:layout_centerInParent="true"
+                        android:text="TEKNIK"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="35sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/TEKNIK1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:text="Fakultas TEKNIK"
+                        android:layout_below="@+id/TEKNIK"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Selengkapnya"
+                        android:background="#808080"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@+id/TEKNIK1"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card6"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@+id/card5">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/FAI"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:scaleType="center"
+                        android:src="@drawable/umb1"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/FAI"
+                        android:layout_centerInParent="true"
+                        android:text="FAI"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="35sp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/FAI1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:text="Fakultas Agama Islam"
+                        android:layout_below="@+id/FAI"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Selengkapnya"
+                        android:background="#808080"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@+id/FAI1"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+</ScrollView>
